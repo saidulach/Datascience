@@ -1,0 +1,84 @@
+Feature,Description,Data Type
+MSSubClass,Identifies the type of dwelling involved in the sale.,int64
+MSZoning,Identifies the general zoning classification of the sale.,object
+LotFrontage,Linear feet of street connected to property,float64
+LotArea,Lot size in square feet,int64
+Street,Type of road access to property,object
+Alley,Type of alley access to property,object
+LotShape,General shape of property,object
+LandContour,Flatness of the property,object
+Utilities,Type of utilities available,object
+LotConfig,Lot configuration,object
+LandSlope,Slope of property,object
+Neighborhood,Physical locations within Ames city limits,object
+Condition1,Proximity to various conditions,object
+Condition2,Proximity to various conditions (if more than one is present),object
+BldgType,Type of dwelling,object
+HouseStyle,Style of dwelling,object
+1.5Fin	One and one-half story,2nd level finished,
+1.5Unf	One and one-half story,2nd level unfinished,
+2.5Fin	Two and one-half story,2nd level finished,
+2.5Unf	Two and one-half story,2nd level unfinished,
+OverallQual,Rates the overall material and finish of the house,int64
+OverallCond,Rates the overall condition of the house,int64
+YearBuilt,Original construction date,int64
+YearRemodAdd,Remodel date (same as construction date if no remodeling or additions),int64
+RoofStyle,Type of roof,object
+RoofMatl,Roof material,object
+Exterior1st,Exterior covering on house,object
+Exterior2nd,Exterior covering on house (if more than one material),object
+MasVnrType,Masonry veneer type,object
+MasVnrArea,Masonry veneer area in square feet,float64
+ExterQual,Evaluates the quality of the material on the exterior,object
+ExterCond,Evaluates the present condition of the material on the exterior,object
+Foundation,Type of foundation,object
+BsmtQual,Evaluates the height of the basement,object
+BsmtCond,Evaluates the general condition of the basement,object
+BsmtExposure,Refers to walkout or garden level walls,object
+BsmtFinType1,Rating of basement finished area,object
+BsmtFinSF1,Type 1 finished square feet,int64
+BsmtFinType2,Rating of basement finished area (if multiple types),object
+BsmtFinSF2,Type 2 finished square feet,int64
+BsmtUnfSF,Unfinished square feet of basement area,int64
+TotalBsmtSF,Total square feet of basement area,int64
+Heating,Type of heating,object
+HeatingQC,Heating quality and condition,object
+CentralAir,Central air conditioning,object
+Electrical,Electrical system,object
+1stFlrSF,First Floor square feet,int64
+2ndFlrSF,Second floor square feet,int64
+LowQualFinSF,Low quality finished square feet (all floors),int64
+GrLivArea,Above grade (ground) living area square feet,int64
+BsmtFullBath,Basement full bathrooms,int64
+BsmtHalfBath,Basement half bathrooms,int64
+FullBath,Full bathrooms above grade,int64
+HalfBath,Half baths above grade,int64
+Bedroom,Bedrooms above grade (does NOT include basement bedrooms),
+Kitchen,Kitchens above grade,
+KitchenQual,Kitchen quality,object
+TotRmsAbvGrd,Total rooms above grade (does not include bathrooms),int64
+Functional,Home functionality (Assume typical unless deductions are warranted),object
+Fireplaces,Number of fireplaces,int64
+FireplaceQu,Fireplace quality,object
+GarageType,Garage location,object
+GarageYrBlt,Year garage was built,float64
+GarageFinish,Interior finish of the garage,object
+GarageCars,Size of garage in car capacity,int64
+GarageArea,Size of garage in square feet,int64
+GarageQual,Garage quality,object
+GarageCond,Garage condition,object
+PavedDrive,Paved driveway,object
+WoodDeckSF,Wood deck area in square feet,int64
+OpenPorchSF,Open porch area in square feet,int64
+EnclosedPorch,Enclosed porch area in square feet,int64
+3SsnPorch,Three season porch area in square feet,int64
+ScreenPorch,Screen porch area in square feet,int64
+PoolArea,Pool area in square feet,int64
+PoolQC,Pool quality,object
+Fence,Fence quality,object
+MiscFeature,Miscellaneous feature not covered in other categories,object
+MiscVal,$Value of miscellaneous feature,int64
+MoSold,Month Sold (MM),int64
+YrSold,Year Sold (YYYY),int64
+SaleType,Type of sale,object
+SaleCondition,Condition of sale,object
